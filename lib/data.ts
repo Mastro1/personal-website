@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import desertgreeningresearchImg from "@/public/desertgreening.png";
+import cropdatabase from "@/public/cropdatabase.png";
+import swissenterprisesdatabaseImg from "@/public/swissenterprisesdatabase.png";
+import biodiversityimpactassessmenttoolImg from "@/public/biodiversityportfolio.png";
 
 export const links = [
   {
@@ -35,73 +36,88 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Data Scientist - Agro-Insurance",
+    location: "AXA Climate / Zurich - Paris",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Led a project from inception that significantly improved data processing efficiency by creating a novel global database of crop yield data stored on AWS servers. Translated business needs into IT solutions, mining large datasets, and processing data. Utilized Google Earth satellite data to predict missing values using advanced ML models such as Gradient Boosting, Random Forests, and K-means. Conducted extensive feature engineering and collaborated with experts to explain causal inferences. Developed user-friendly dashboards via Streamlit to browse data and draw correlation maps for capacity spread.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "March 2023 - Nov 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Teacher Assistant - Operations Management Course",
+    location: "HEC - UNIL / Lausanne",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Assisted a class of 60 students by giving courses and guiding them through practical case studies. Supported semester projects by explaining qualitative and quantitative operations management concepts to individual students. Topics included supply chain management, layout management, MRP, Stock Management, Statistical Process Control",
+    icon: React.createElement(LuGraduationCap),
+    date: "Feb 2021 - Jan 2023",
+  },
+  {
+    title: "Biodiversity Consultant - Investment Management",
+    location: "Asteria Investment Managers / Geneva",
+    description:
+      "As an SMT student, collaborated with Asteria Investment Managers in the context of the E4S Transformative Projects. Developed a python tool to assess the biodiversity impact of Asteria's portfolios.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Sep 2022 - Jan 2023",
+  },
+  {
+    title: "Co-Founder and IT Manager",
+    location: "LadyMustache / Lugano",
+    description:
+      "Developed and managed an e-commerce website on multiple platforms. Automated warehouse storage and product shipping processes. Conducted market analysis and tracked advertisement performance with A/B testing. Organized events to attract customers and increase brand awareness.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Apr 2019 - Aug 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Swiss Enterprises Database",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A SaaS platform that leverages AI and a comprehensive database of Swiss enterprise contacts to enhance marketing efforts.",
+    tags: ["Flask", "Webscraping", "SQL", "AWS", "Cursor", "LLM"],
+    imageUrl: swissenterprisesdatabaseImg,
   },
   {
-    title: "rmtDev",
+    title: "Crop Yield Database",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Created a novel global database of crop yield data and developed ML models using Google Earth satellite data for yield reconstruction.",
+    tags: ["Machine Learning", "AWS", "Python", "Data Analysis", "Agriculture"],
+    imageUrl: cropdatabase,
   },
   {
-    title: "Word Analytics",
+    title: "Biodiversity Impact Assessment Tool",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Developed a Python tool to assess the biodiversity impact of investment portfolios for Asteria Investment Managers.",
+    tags: ["Python", "Data Analysis", "Sustainability", "Investment", "Biodiversity"],
+    imageUrl: biodiversityimpactassessmenttoolImg,
+  },
+  {
+    title: "Desert Greening Research",
+    description:
+      "Co-authored research paper exploring desert greening as a potential solution to climate change, analyzing its effects on carbon sequestration, albedo change, and cloud cover. Published in Climate Informatics, 2022.",
+    tags: ["Climate Science", "Data Analysis", "Research", "Python", "Machine Learning"],
+    imageUrl: desertgreeningresearchImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "R",
+  "SQL",
+  "Machine Learning",
+  "Data Analysis",
+  "Power BI",
+  "Tableau",
+  "AWS S3",
+  "AWS SageMaker",
+  "Microsoft Office",
+  "Stata",
+  "Mathematica",
+  "SAP ByDesign",
+  "WordPress",
+  "Adobe",
+  "Canva",
+  "Project Management",
+  "Sustainability",
+  "Business Intelligence",
 ] as const;

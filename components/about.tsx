@@ -19,30 +19,28 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I thrive at the intersection of <span className="font-medium">technology, sustainability, and business strategy</span>. 
+        Holding an <span className="font-medium">MSc in Sustainable Management and Technology</span> from EPFL, IMD Business School, 
+        and UNIL-HEC, I bring a unique mix of technical expertise and strategic vision to every project. My core skills include{" "}
+        <span className="font-medium">Python, R, SQL, Machine Learning, and Data Analysis</span>, which I use to develop innovative, 
+        high-impact solutions.
+      </p>
+
+      <p className="mb-3">
+        Beyond my technical abilities, I excel at bridging the gap between research, execution, and business impact. 
+        Whether it's mining and analyzing massive datasets, developing scalable AI models, or leading agile projects, 
+        I ensure technology translates into real-world value.
+      </p>
+
+      <p className="mb-3">
+        Fluent in <span className="font-medium">Italian (native), English, and French</span>, with intermediate proficiency in Russian. 
+        When I'm not working, you'll find me tinkering with the latest tech, staying active at the gym, or traveling to discover 
+        new places and perspectives.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        I believe in the <span className="font-medium">transformative power of data</span> and constantly seek ways to push 
+        the boundaries of what's possible.
       </p>
     </motion.section>
   );
