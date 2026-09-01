@@ -4,8 +4,10 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import desertgreeningresearchImg from "@/public/desertgreening.png";
 import cropdatabase from "@/public/cropdatabase.png";
-import swissenterprisesdatabaseImg from "@/public/swissenterprisesdatabase.png";
+import alpbaseImg from "@/public/alpbase.png";
 import biodiversityimpactassessmenttoolImg from "@/public/biodiversityportfolio.png";
+import satlitImg from "@/public/SatLit.png";
+import alphaytImg from "@/public/alphayt.png";
 
 export const links = [
   {
@@ -35,6 +37,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "Data Engineer - Parametric",
+    location: "Africa Specialty Risks / London - Remote",
+    description:
+      "Working within the Parametric team, in close collaboration with the Head of Innovation, underwriters, and external scientific collaborators, contributing to the development and delivery of data-driven parametric risk solutions. Conducting applied scientific research at the intersection of geosciences and insurance/risk management, supporting the design and development of parametric insurance products, and providing in-depth analytical support to underwriting activities. Working extensively with satellite and geospatial data and managing team data infrastructure, including database creation and maintenance.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2025 - Present",
+  },
   {
     title: "Data Scientist - Agro-Insurance",
     location: "AXA Climate / Zurich - Paris",
@@ -71,11 +81,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Swiss Enterprises Database",
+    title: "AlpBase",
     description:
-      "A SaaS platform that leverages AI and a comprehensive database of Swiss enterprise contacts to enhance marketing efforts.",
-    tags: ["Flask", "Webscraping", "SQL", "AWS", "Cursor", "LLM"],
-    imageUrl: swissenterprisesdatabaseImg,
+      "SaaS platform that monitors the Swiss Commercial Registry across all cantons and delivers newly registered companies, relocations, and liquidations to subscribers every week.",
+    tags: ["Next.js", "Web Scraping", "SQL", "Stripe", "SaaS", "Supabase"],
+    imageUrl: alpbaseImg,
+    link: "https://www.alpbase.ch/en",
+  },
+  {
+    title: "AlphaYT",
+    description:
+      "An independent, automated audit platform that tracks stock picks from finance YouTube channels.",
+    tags: ["AI", "LLM", "Next.js", "Data Pipeline", "Finance"],
+    imageUrl: alphaytImg,
+    link: "https://alphayt.com/",
+  },
+  {
+    title: "SatLit",
+    description:
+      "Open-source, no-code Streamlit dashboard for extracting satellite and climate data from Google Earth Engine.",
+    tags: ["Python", "Streamlit", "Google Earth Engine", "Remote Sensing", "Open Source"],
+    imageUrl: satlitImg,
+    link: "https://github.com/Mastro1/SatLit",
   },
   {
     title: "Crop Yield Database",
@@ -83,6 +110,7 @@ export const projectsData = [
       "Created a novel global database of crop yield data and developed ML models using Google Earth satellite data for yield reconstruction.",
     tags: ["Machine Learning", "AWS", "Python", "Data Analysis", "Agriculture"],
     imageUrl: cropdatabase,
+    link: "",
   },
   {
     title: "Biodiversity Impact Assessment Tool",
@@ -90,6 +118,7 @@ export const projectsData = [
       "Developed a Python tool to assess the biodiversity impact of investment portfolios for Asteria Investment Managers.",
     tags: ["Python", "Data Analysis", "Sustainability", "Investment", "Biodiversity"],
     imageUrl: biodiversityimpactassessmenttoolImg,
+    link: "",
   },
   {
     title: "Desert Greening Research",
@@ -97,6 +126,7 @@ export const projectsData = [
       "Co-authored research paper exploring desert greening as a potential solution to climate change, analyzing its effects on carbon sequestration, albedo change, and cloud cover. Published in Climate Informatics, 2022.",
     tags: ["Climate Science", "Data Analysis", "Research", "Python", "Machine Learning"],
     imageUrl: desertgreeningresearchImg,
+    link: "",
   },
 ] as const;
 
@@ -106,6 +136,7 @@ export const skillsData = [
   "SQL",
   "Machine Learning",
   "Data Analysis",
+  "Agentic Engineering",
   "Power BI",
   "Tableau",
   "AWS S3",
